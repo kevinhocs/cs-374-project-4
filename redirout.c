@@ -7,7 +7,7 @@ int main (int argc, char *argv[]){
 
     if (argc < 3){
         fprintf (stderr, 
-            "Usage: redirout [arg1 [arg2...]]\n");
+            "usage: redirout filename command [arg1 [arg2...]]\n");
         exit (1);
     }
 
